@@ -1,5 +1,5 @@
 class Product < ApplicationRecord
-    has_many :review;
+    has_many :reviews
 
     before_create :slugify
 

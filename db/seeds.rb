@@ -1,5 +1,7 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+Product.destroy_all
+Review.destroy_all
 
 products = Product.create([
     {
@@ -41,12 +43,12 @@ reviews = Review.create ([
         title: "Great phone",
         description: "I enjoyed every feature of this phone",
         score: 5,
-        product: product.first
+        product: products.first
     },
     {
         title: "For Android lover  this is full pakege",
         description: "Im loving it! Upgraded from samsung Z flip to Samsung Z fold",
         score: 5,
-        product: product.third
+        product: products.third
     }
 ])
