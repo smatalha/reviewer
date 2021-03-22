@@ -35,6 +35,10 @@ products = Product.create([
     {
         name: "Microsoft Surface Duo",
         image_url: "https://fdn2.gsmarena.com/vv/pics/microsoft/microsoft-surface-duo-02.jpg"
+    },
+        {
+        name: "Microsoft Surface Duo",
+        image_url: "https://fdn2.gsmarena.com/vv/pics/microsoft/microsoft-surface-duo-02.jpg"
     }
 ])
 
